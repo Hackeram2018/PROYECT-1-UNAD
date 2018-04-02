@@ -1,0 +1,121 @@
+html, body{
+
+	margin: 0;
+	font-family: sans-serif;
+	min-height: 100vh;
+	flex-wrap: wrap;
+}
+
+header {
+
+	width: 100%;
+	background: #4E94AB;
+}
+
+#brn-menu {
+
+	display: none;
+}
+		
+header label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-right: 1px solid #fff: 
+}
+
+header label:hover {
+	cursor: pointer;
+	background: rgb(0,0,0,0.3);
+}
+
+.menu ul{
+margin: 0;
+list-style: none;
+padding:0;
+display: flex;
+
+}
+.menu li{
+	flex-grow: 1;
+}
+
+.menu li:hover{
+	background: rgba(0,0,0,0.3);
+}
+
+.menu li a {
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+	#cover{
+		background: #222 url('../img/night-sky-2284592.jpg') center center no-repeat;
+		background-size: cover;
+		color: white;
+			height: 100%;
+		text-align: center;
+		display: flex;
+		align-items; center;
+	}
+
+	#cover-texto{
+		width: 100%
+	}
+	
+	footer {
+		align-self: flex-end;
+		background-color: rgba(120,120,120,.5);
+		line-height: 3;
+		text-align: center;
+		width: 100%;
+		position: fixed;
+
+	}
+
+	.redes {
+		position: fixed;
+		left: 0;
+		top: 35%;
+		font-size: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		z-index: 100;
+	}
+	.icon {
+		color: white;
+		text-decoration: none;
+		padding: .7rem;
+		display: flex;
+		transition: all .5s; 
+
+	}
+
+	.icon-facebook {
+		background: #2E406E;
+	} 
+
+	.icon-twitter {
+		background: #339DC5;
+	} 
+
+	.icon-youtube {
+		background: #E83028;
+	} 
+
+	.icon-instagram {
+		background: #3F60A5;
+	} 
+
+	.icon:firs-child{
+		border-radius: 1rem 0 0 0;
+	}
+
+	.icon:last-child{
+		border-radius: 0 0 0 1rem;
+	}
